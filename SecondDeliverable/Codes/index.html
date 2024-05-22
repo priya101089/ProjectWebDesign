@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <link rel ="stylesheet" href="main.css">
+    <meta name="homepage" content="Presentation of the Clown School LAUGHACADEMY ">
+    <meta property="og:title" content="LAUGHACADEMY" />
+    <meta property="og:type" content="article.presentation" />
+    <meta property="og:url" content="https://www.laughacademy.clown" />
+  </head>
+
+  <body class="d-flex flex-column vh-100">
+  <!--HEADER-->
+  <header>
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+                <a class="logo navbar-brand row" href="index.html">
+                    <div class="col-2">
+                    <img src="visuals/logo.png" alt="logo" >
+                    </div>
+                    <div class="name col-2 me-auto">
+                    <h1>CLOWN SCHOOL </h1>
+                    <h1>LAUGHACADEMY</h1>
+                    </div>  
+                </a>
+
+                <div class="call d-none d-md-block">
+                    <a class="btn contact text-nowrap" href="tel:5145555555" role="button">Contact us: 514-555-5555</a>
+                </div>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="Staff.html">Team</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="classes.html">Classes</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <span class="navbar-toggler-icon"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Forms.html">Inscription</a></li>
+                            <li><a class="dropdown-item" href="#">Review</a></li>
+                            <li><a class="dropdown-item" href="#">FAQ</a></li>
+                        </ul>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+  <!--END HEADER-->
+
+    <!--MAIN-->
+    <main>
+        <div class="container">
+            <div class="contactbtn d-block d-md-none text-center">
+                <a class="btn contact text-nowrap" href="tel:5145555555" role="button">Contact us: 514-555-5555</a>
+            </div>
+            <div class="row"> 
+                <div class="col-lg-4 col-md-6 text-center photo">
+                    <img class="img-fluid" src="visuals/clown.jpg" alt="clown playing in the street">
+                </div>
+                <div class="col-md-5 col-lg-6 col-xl-4 about">
+                    <h2>Lorem ipsom dolor</h2>
+                    <p class="inline">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                </div>
+
+                <!--sidebar-->
+                <div class="col-3 sidebar  d-none d-xl-block">
+                    <section class="inline desktop upcoming">
+                        <h2 class="text-center">Upcoming classes</h2>
+                        <div class="overflow-scroll" style="overflow-x: hidden;">
+                            <div class="row">
+                                <div class="col-9">
+                                    Creative Improv class for Kids
+                                </div>
+                                <div class="col-3 register">
+                                    <a class="btn registerbtn text-nowrap" href="Forms.html" role="button">Register</a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-9">
+                                    Creative Improv class for Youth
+                                </div>
+                                <div class="col-3 register">
+                                    <a class="btn registerbtn text-nowrap" href="Forms.html" role="button">Register</a>                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-9">
+                                    Musical Improv class for All Ages
+                                </div>
+                                <div class="col-3 register">
+                                    <a class="btn registerbtn text-nowrap" href="Forms.html" role="button">Register</a>                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-9">
+                                    Improv class for Adults
+                                </div>
+                                <div class="col-3 register">
+                                    <a class="btn registerbtn text-nowrap" href="Forms.html" role="button">Register</a>                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-9">
+                                    Improv class for Women
+                                </div>
+                                <div class="col-3 register">
+                                    <a class="btn registerbtn text-nowrap" href="Forms.html" role="button">Register</a>                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-9">
+                                    Intensive Improv class for Adults
+                                </div>
+                                <div class="col-3 register">
+                                    <a class="btn registerbtn text-nowrap" href="Forms.html" role="button">Register</a>                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="inline recentEvent ">
+                        <h2 class="text-center">Recent events</h2>
+
+                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <div class="row desktop flex-nowrap">
+                                    <div class="col-4">
+                                        <img src="visuals/clown1.jpg" alt="happy clown">
+                                    </div>
+                                    <div class="col-6 text">
+                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh viverra non semper suscipit posuere a pede.
+                                        </p>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <div class="row desktop flex-nowrap">
+                                    <div class="col-4">
+                                        <img src="visuals/clown2.jpg" alt="sad clown">
+                                    </div>
+                                    <div class="col-6 text">
+                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae.
+                                        </p>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <div class="row desktop flex-nowrap">
+                                    <div class="col-4">
+                                        <img src="visuals/clown3.png" alt="clown">
+                                    </div>
+                                    <div class="col-6 text text-">
+                                        <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.
+                                        </p>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                    </section>
+                </div>
+            </div>
+
+                <!--modified sidebar mobile-->
+                <div class="d-block d-xl-none">
+                    
+                    <section class="inline mobile upcoming">
+                        <h2 class="text-center">Upcoming classes</h2>
+                        <div id="carouselIndicators" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="row class">
+                                        <div class="classText col-7">
+                                            Donec odio. Quisque volutpat mattis eros.
+                                        </div>
+                                        <div class="col-3 register">
+                                            <a class="btn registerbtn text-nowrap" href="Forms.html" role="button">Register</a>                                    </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row class">
+                                        <div class="classText col-7">
+                                            Nemo enim ipsam voluptatem quia voluptas sit aspernatur.
+                                        </div>
+                                        <div class="col-3 register">
+                                            <a class="btn registerbtn text-nowrap" href="Forms.html" role="button">Register</a>                                    </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row class">
+                                        <div class="classText col-7">
+                                            Ad minima veniam, quis nostrum exercitationem ullam corporis.
+                                        </div>
+                                        <div class="col-3 register">
+                                            <a class="btn registerbtn text-nowrap" href="Forms.html" role="button">Register</a>                                    </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row class">
+                                        <div class="classText col-7">
+                                            Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse.
+                                        </div>
+                                        <div class="col-3 register">
+                                            <a class="btn registerbtn text-nowrap" href="Forms.html" role="button">Register</a>                                    </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row class">
+                                        <div class="classText col-7">
+                                            Excepteur sint occaecat cupidatat non proident, sunt in culpa.
+                                        </div>
+                                        <div class="col-3 register">
+                                            <a class="btn registerbtn text-nowrap" href="Forms.html" role="button">Register</a>                                    </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row class">
+                                        <div class="classText col-7">
+                                            Labore et dolore magnam aliquam quaerat voluptatem.
+                                        </div>
+                                        <div class="col-3 register">
+                                            <a class="btn registerbtn text-nowrap" href="Forms.html" role="button">Register</a>                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </section>
+
+                    <section class="inline mobile recentEvent "> 
+                        <h2 class="text-center">Recent events</h2>
+                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                <div class="row mobile flex-nowrap">
+                                    <div class="col-5">
+                                        <img class="img-fluid" src="visuals/clown1.jpg" alt="happy clown">
+                                    </div>
+                                    <div class="col-5 col-lg-6 text">
+                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh viverra non semper suscipit posuere a pede.
+                                        </p>
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="carousel-item">
+                                <div class="row mobile flex-nowrap">
+                                    <div class="col-5 col-lg-6">
+                                        <img src="visuals/clown2.jpg" alt="sad clown">
+                                    </div>
+                                    <div class="col-5 text">
+                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                                        </p>
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="carousel-item">
+                                <div class="row mobile flex-nowrap">
+                                    <div class="col-5 ">
+                                        <img src="visuals/clown3.png" alt="clown">
+                                    </div>
+                                    <div class="col-5  text">
+                                        <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus
+                                        </p>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </section>
+                </div> 
+            <!--end sidebar-->
+            <section class="newsletter d-none d-xl-block">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="content">
+                                <h2>JOIN OUR MAIL LIST</h2>
+                                <div class="input-group">
+                                    <input type="email" class="form-control" placeholder="Enter your email">
+                                    <span class="input-group-btn">
+                                    <button class="btn" type="submit">SIGN ME UP</button>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!--END MAIN-->
+ <!--FOOTER-->
+    <footer class="mt-auto text-center text-lg-start">
+        <div class="container-footer">
+        <div class="row">
+            <div class="foot-1 col-4 col-xl-2 col-md-4 col-lg-4 order-3 order-md-2 order-lg-2 order-xl-1 order-sm-2"> 
+                <a class="nav-link" href="aboutus.html">About Us <br> </a> 
+                <a class="nav-link" href="Staff.html">The Team <br> </a> 
+                <a class="nav-link" href="classes.html"> Classes <br> </a> 
+                <a class="nav-link" href="contactus.html">Contact Us <br> </a> 
+            </div>
+            <div class="foot-2 col-6  col-xl-2 col-md-6 col-lg-6 order-3 order-md-2 order-lg-2 order-xl-1 order-sm-2 text-start">
+                <a class="nav-link" href="review.html">Review<br> </a> 
+                <a class="nav-link" href="cancellation.html">Cancellation Policy<br> </a> 
+                <a class="nav-link" href="privacy.html">Privacy Policy <br><br><br> </a> 
+                <a href="#"><i class="d-xl-none d-lg-block d-md-block d-sm-block fa fa-copyright"></i></a> <span class="d-xl-none d-lg-block d-md-block d-sm-block d-md-inline">Copy right 2024 All Rights Reserved</span>
+
+            </div>
+            <div class="foot-3 col-12  col-xl-6 col-md-12 col-lg-12 order-1 order-md-1 order-lg-1 order-xl-1 order-sm-1">
+                <h4> CLOWN SCHOOL-LAUGH ACADEMY</h4> 
+                <h6> 8130, St.Catherine, Montreal <br> Qubec, Canada - J5C2B5 <br> <br> </h6>
+                <a href="#"><i class="d-none d-xl-block d-lg-none d-md-none d-sm-none fa fa-copyright"></i></a> <span class="d-none d-xl-block d-lg-none d-md-none d-sm-none d-md-inline">Copy right 2024 All Rights Reserved</span>
+            </div>
+            <div class="foot-4 col-2  col-xl-2 col-md-2 col-lg-2 order-4 order-md-3 order-lg-3 order-xl-1 order-sm-3">
+                <a href="#"><i class="fa fa-vimeo"></i></a> <span class="d-none d-md-inline"></span> 
+                <a href="#"><i class="fa fa-youtube"></i></a> <span class="d-none d-md-inline"></span>   
+            </div>
+        </div>  
+        </div>
+    </footer>
+
+    <!--END FOOTER-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+    </body>
+</html>
+
+    
+
+   

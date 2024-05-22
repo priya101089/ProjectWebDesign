@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&family=Luckiest+Guy&display=swap');
+
+*{
+    font-family: "Archivo Narrow", sans-serif;
+}
+
+
+/* HEADER*/ 
+header {
+    background-color: #f2a20c7c;
+}
+
+.logo img{
+    max-height: 60px;
+    margin-left:10px
+}
+
+.logo h1{
+    margin-left: 30px;
+    color:#17bfa0;
+    font-size: 1.25em;
+    font-family: "Luckiest Guy", digitalt;
+}
+
+.name{
+    margin-top: 15px;
+}
+
+.name>h1{
+    margin-top: -10px;
+}
+
+div>ul{
+    font-family: "Archivo Narrow";
+    font-weight: bold;
+    font-size: 20px;
+}
+
+div>ul>li{
+    margin-right: 30px;
+}
+
+.nav-link{
+    color:black
+}
+
+.dropdown-menu{
+    margin-right:40px;
+}
+
+.nav-link:hover{
+    color:#d93b92
+}
+
+.nav-link:active{
+    color: #17bfa0;
+}
+
+.contact{
+    background-color: #d93b92;
+    border-radius: 10px;
+    padding:10px;
+    font-family:  "Archivo Narrow";
+    color:white;
+    font-size: 20px;
+}
+
+/*END HEADER*/
+
+
+
+/* FOOTER */
+
+.container-footer{
+    font-family: "Archivo Narrow";
+    font-size: medium;
+    background: #F2A20C;
+    padding: 10px;
+}
+
+.foot-1 {
+    font-family:"Archivo Narrow" ;
+    font-size: 15px;
+    text-decoration: underline;
+    text-align: left;
+    padding-left: 30px;
+}
+.foot-2 {
+    font-family:"Archivo Narrow" ;
+    font-size:15px;
+    text-decoration: underline;
+}
+.foot-3 {
+    font-family:"Archivo Narrow" ;
+    font-size:15px;
+    text-align: center;
+}
+.foot-4 {
+    font-family:"Archivo Narrow" ;
+    font-size:50px;
+    text-align: right;
+    padding-right: 30px;
+}
+.foot-4 a{
+    color: white;
+}
+/* END FOOTER */
+
+
+
+/* INDEX PAGE _ HOME PAGE*/
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&family=Luckiest+Guy&display=swap');
+
+
+/*main*/
+main{
+    margin:20px;
+}
+
+.contactbtn{
+    margin:15px 0px 15px;
+}
+
+.photo img{
+    max-height: 250px;
+    min-width: 300px;
+}
+
+.about h2{
+    color:#17bfa0;
+    font-size: 1.25em;
+    font-family: "Luckiest Guy", digitalt;
+}
+
+.about {
+    margin-top:20px;
+}
+
+@media (max-width:760px) {
+    .about>p{
+        text-align: justify;
+        text-justify: inter-word;
+        font-size: 14px;
+    }
+}
+
+@media (max-width:760px) {
+    .about>h2{
+        text-align: center;
+    }
+}
+
+/*sidebar*/
+.sidebar h2{
+    color:#000;
+    font-size: 1em;
+    font-family: "Luckiest Guy", digitalt;
+}
+
+.sidebar{
+    background-color: #17bfa0;
+    margin:0px;
+    padding:0px;
+}
+
+.upcoming, .recentEvent{
+    border-color: #f2a20c;
+    border-style:solid;
+    border-width: 2px;
+    padding-top:10px;
+}
+
+.register{
+    padding:0px;
+}
+
+.registerbtn{
+    font-family:  "Archivo Narrow";
+    color:white;
+    font-size: 14px;
+    background-color: #d93b92;
+    border-radius: 10px;
+    padding:5px;
+}
+
+.upcoming .row{
+    padding: 7px 0px 7px 10px;
+    margin-right: 0px;
+    font-size: 13px;
+    font-weight: bold;
+    overflow-x: hidden;
+}
+
+.upcoming .row div{
+    padding-right: 0px;
+}
+
+
+.overflow-scroll{
+    max-height: 200px ;
+    overflow-y: scroll;
+}
+
+.recentEvent{
+    max-height: 200px;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f2a20c70;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #f2a20c;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #fff;
+  }
+
+  .desktop img{
+    max-height: 80px;
+    margin-top: 20px;
+  }
+
+  .carousel .row{
+    margin-left: 25px;
+  }
+
+  .carousel-item .text{
+    font-size: 12px;
+    padding:5px;
+    margin-left:5px;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+  .carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color:#0000008a;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+  }
+
+  .mobile img{
+    max-height: 150px;
+    margin: 20px;
+  }
+
+  .mobile p{
+    margin-top: 30px;
+  }
+
+  @media (min-width:994px) {
+        .mobile img{
+            margin-left: 100px;
+        }
+        .mobile{
+            margin:50px 150px 50px 150px;
+        }     
+    }
+
+    .mobile h2{
+        color:#000;
+        font-size: 1em;
+        font-family: "Luckiest Guy", digitalt;
+    }
+
+    .mobile{
+        border:none;
+    }
+
+    section.mobile {
+        margin:50px 0px 50px 0px;
+    }
+
+    .carousel-indicators{
+        color:#f2a20c;
+    }
+
+    .classText{
+        margin-left:40px;
+    }
+
+
+/*end sidebar*/
+
+/*subscribe*/
+.content .btn{
+    background-color: #d93b92;
+    padding:5px 10px;
+    border-radius: 10px;
+    margin-left:10px;
+    color:white;
+}
+
+.content h2{
+    font-size: 22px;
+}
+
+.newsletter{
+    margin-top: -120px;
+    margin-left: 80px;
+}
+/*subscribe*/
+
+/* INDEX PAGE _ HOME PAGE*/
